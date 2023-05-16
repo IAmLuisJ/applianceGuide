@@ -12,7 +12,7 @@ import { Link } from "@remix-run/react";
 
 export default function BigQuestionForm() {
   return (
-    <div class="mt-8 grid grid-cols-1 items-center gap-4 rounded-lg bg-blue-500 py-12 px-14 md:grid-cols-2">
+    <div class="mt-8 grid grid-cols-1 items-center gap-4 rounded-lg bg-bby-blue py-12 px-14 md:grid-cols-2">
       <div class="text-center md:text-left">
         <div class="text-4xl font-extrabold text-white">
           I need it
@@ -94,7 +94,7 @@ export default function BigQuestionForm() {
         />
 
         <button
-          class="flex items-center justify-center rounded-md bg-blue-900 px-4 py-3 font-semibold text-white shadow-md shadow-blue-700 transition hover:bg-slate-900"
+          class="flex items-center justify-center rounded-md bg-bby-yellow px-4 py-3 font-semibold shadow-md shadow-blue-700 transition hover:bg-bby-yellow-dk"
           type="submit"
         >
           <svg

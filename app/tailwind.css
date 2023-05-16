@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-bby-blue {
+    background-color: #0046be;
+}
+.bg-bby-blue-dk {
+    background-color: #001e73;
+}
+.bg-bby-blue-lt {
+    background-color: #4976e6;
+}
+.bg-bby-yellow {
+    background-color: #fff200;
+}
+.hover\:bg-bby-yellow:hover {
+    background-color: #fff200;
+}
+.bg-bby-yellow-dk {
+    background-color: #ffce00;
+}
+.hover\:bg-bby-yellow-dk:hover {
+    background-color: #ffce00;
+}
+.text-bby-yellow {
+    color: #fff200;
+}
+.text-bby-yellow-dk {
+    color: #ffce00;
+}

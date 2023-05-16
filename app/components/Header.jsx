@@ -15,7 +15,7 @@ const redirectToSearch = () => {
 export default function Header() {
   return (
     <header className="text-white body-font">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center bg-blue-700">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center bg-bby-blue">
         <a href="https://www.bestbuy.com/" style={{ margin: "0 20px 0 20px" }}>
           <img
             class="block"
