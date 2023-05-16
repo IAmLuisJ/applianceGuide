@@ -22,8 +22,8 @@ export default function Index() {
       </div>
       <div className="w-fit mx-auto">
         <BigQuestionForm />
+        <Appliancequestionform />
       </div>
-      <Appliancequestionform />
     </div>
   );
 }
