@@ -12,7 +12,7 @@ import { Link } from "@remix-run/react";
 
 export default function Appliancequestionform() {
   return (
-    <div class="mt-8 grid grid-cols-1 items-center gap-4 rounded-lg bg-violet-500 py-12 px-14 md:grid-cols-2">
+    <div class="mt-8 grid grid-cols-1 items-center gap-4 rounded-lg bg-blue-700 py-12 px-14 md:grid-cols-2">
       <div class="text-center md:text-left">
         <div class="text-4xl font-extrabold text-white">
           I need it
@@ -82,26 +82,29 @@ export default function Appliancequestionform() {
           type="number"
         />
         <input type="checkbox" name="install" />
-        <label for="install" >I want installation.
-            </label> 
-            <p>Fuel Type</p>
-        <input type="radio" id="ftypeh" name="fuel_type" value="HTML"/>
-        <label for="ftype">HTML</label><br></br>
-        <input type="radio" id="ftypec" name="fuel_type" value="CSS"/>
-        <label for="css">CSS</label><br></br>
-        <input type="radio" id="javasftypej" name="fuel_type" value="JavaScript"/>
-        <label for="javascript">JavaScript</label>   
+        <label for="install">I want installation.</label>
+        <p>Fuel Type</p>
+        <input type="radio" id="ftypeh" name="fuel_type" value="HTML" />
+        <label for="ftype">HTML</label>
+        <br></br>
+        <input type="radio" id="ftypec" name="fuel_type" value="CSS" />
+        <label for="css">CSS</label>
+        <br></br>
+        <input
+          type="radio"
+          id="javasftypej"
+          name="fuel_type"
+          value="JavaScript"
+        />
+        <label for="javascript">JavaScript</label>
         <input type="checkbox" name="Color" />
-        <label for="install" >I have color preferences.
-            </label> 
-            <input type="checkbox" name="Brand" />
-        <label for="install" >I have brand preferences.
-            </label> 
-            <input type="checkbox" name="haulaway" />
-        <label for="install" >I want my old appliances hauled away.
-            </label> 
+        <label for="install">I have color preferences.</label>
+        <input type="checkbox" name="Brand" />
+        <label for="install">I have brand preferences.</label>
+        <input type="checkbox" name="haulaway" />
+        <label for="install">I want my old appliances hauled away.</label>
         <button
-          class="flex items-center justify-center rounded-md bg-violet-900 px-4 py-3 font-semibold text-white shadow-md shadow-violet-700 transition hover:bg-slate-900"
+          class="flex items-center justify-center rounded-md bg-blue-900 px-4 py-3 font-semibold text-white shadow-md shadow-violet-700 transition hover:bg-slate-900"
           type="submit"
         >
           <svg

@@ -15,10 +15,10 @@ export default function Index() {
       <div className="w-fit mx-auto">
         <QuickButtons />
       </div>
-        <Appliancequestionform />
       <div className="w-fit mx-auto">
         <BigQuestionForm />
       </div>
+      <Appliancequestionform />
     </div>
   );
 }
