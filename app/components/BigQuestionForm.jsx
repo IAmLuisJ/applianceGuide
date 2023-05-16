@@ -69,7 +69,12 @@ export default function BigQuestionForm() {
         method="GET"
       >
         <input type="hidden" name="id" value="pcat17071" />
-        <input type="hidden" name="qp" value="{factet1 + facet2}" />
+        {/* facet 1 + facet 2 */}
+        <input
+          type="hidden"
+          name="qp"
+          value="{installdays_facet%3DDelivery%20%2B%20Install~Within%202%20days}"
+        />
         <select></select>
         <select className="mb-5 rounded" name="st">
           <option>Refrigerator</option>
