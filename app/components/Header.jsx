@@ -21,7 +21,7 @@ export default function Header() {
                 <nav className="flex flex-wrap items-center text-lg justify-center">
                     <Link className="text-center mr-5 hover:text-gray-900" to="/">Home</Link>
                     <Link className="text-center mr-5 hover:text-gray-900" to="/questions">Appliance Questions</Link>
-                    <Link className="mr-5 hover:text-gray-900" to="/bundles">Appliance Bundles</Link>
+                    <Link className="mr-5 hover:text-gray-900" to="https://www.bestbuy.com/site/home-appliances/kitchen-appliance-packages/pcmcat302600050005.c?id=pcmcat302600050005">Appliance Bundles</Link>
                 </nav>
                 
                 <div class="search" style={{color: "#333333", overflow:"auto", marginLeft:"75px"}}>
