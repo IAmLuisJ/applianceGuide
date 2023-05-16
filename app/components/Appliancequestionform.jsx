@@ -15,12 +15,12 @@ export default function Appliancequestionform() {
     <div class="mt-8 grid grid-cols-1 items-center gap-4 rounded-lg bg-blue-700 py-12 px-14 md:grid-cols-2">
       <div class="text-center md:text-left">
         <div class="text-4xl font-extrabold text-white">
-          I need it
+          What are you
           <br />
-          quick
+          looking for?
         </div>
         <div class="mt-2 text-sm text-violet-100">
-          Find the fastest installation available
+          Answer a few quick questions so we can provide our best recommendation
         </div>
         <ul class="mt-6 mb-8 text-sm text-violet-100 md:mb-0">
           <li class="flex items-center justify-center md:justify-start">
