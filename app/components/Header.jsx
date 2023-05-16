@@ -31,7 +31,7 @@ export default function Header() {
           </Link>
           <Link
             className="text-center mr-5 hover:text-gray-900"
-            to="/questions"
+            to="#questions"
           >
             Appliance Questions
           </Link>

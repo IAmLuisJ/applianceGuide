@@ -75,7 +75,10 @@ export default function BigQuestionForm() {
           name="qp"
           value="{installdays_facet%3DDelivery%20%2B%20Install~Within%202%20days}"
         />
-        <select className="mb-5 rounded" name="st">
+        <label for="st" className="text-xl font-extrabold text-white mb-2">
+          What Appliance are you shopping for?
+        </label>
+        <select className="mb-5 rounded" name="st" id="st">
           <option>Refrigerator</option>
           <option>Dishwasher</option>
           <option>Range</option>
@@ -87,10 +90,11 @@ export default function BigQuestionForm() {
           min="0"
           placeholder="What is your zip code?"
           type="number"
+          required
         />
 
         <button
-          class="flex items-center justify-center rounded-md bg-blue-900 px-4 py-3 font-semibold text-white shadow-md shadow-violet-700 transition hover:bg-slate-900"
+          class="flex items-center justify-center rounded-md bg-blue-900 px-4 py-3 font-semibold text-white shadow-md shadow-blue-700 transition hover:bg-slate-900"
           type="submit"
         >
           <svg

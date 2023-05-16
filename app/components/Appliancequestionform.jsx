@@ -64,6 +64,7 @@ export default function Appliancequestionform() {
         </ul>
       </div>
       <form
+        id="questions"
         class="flex flex-col md:ml-8"
         action="https://www.bestbuy.com/site/searchpage.jsp"
         method="GET"
@@ -83,20 +84,17 @@ export default function Appliancequestionform() {
         />
         <input type="checkbox" name="install" />
         <label for="install">I want installation.</label>
-        <p>Fuel Type</p>
-        <input type="radio" id="ftypeh" name="fuel_type" value="HTML" />
-        <label for="ftype">HTML</label>
-        <br></br>
-        <input type="radio" id="ftypec" name="fuel_type" value="CSS" />
-        <label for="css">CSS</label>
-        <br></br>
-        <input
-          type="radio"
-          id="javasftypej"
-          name="fuel_type"
-          value="JavaScript"
-        />
-        <label for="javascript">JavaScript</label>
+        <fieldset>
+          <legend>Fuel Type</legend>
+          <label for="ftype">Electric</label>
+          <input type="radio" id="ftypeh" name="fuel_type" value="Electric" />
+          <br />
+          <label for="css">Gas</label>
+          <input type="radio" id="ftypec" name="fuel_type" value="Gas" />
+          <br />
+          <label for="LP">Liquid Propane</label>
+          <input type="radio" id="javasftypej" name="fuel_type" value="LP" />
+        </fieldset>
         <input type="checkbox" name="Color" />
         <label for="install">I have color preferences.</label>
         <input type="checkbox" name="Brand" />
@@ -104,7 +102,7 @@ export default function Appliancequestionform() {
         <input type="checkbox" name="haulaway" />
         <label for="install">I want my old appliances hauled away.</label>
         <button
-          class="flex items-center justify-center rounded-md bg-blue-900 px-4 py-3 font-semibold text-white shadow-md shadow-violet-700 transition hover:bg-slate-900"
+          class="flex items-center justify-center rounded-md bg-blue-900 px-4 py-3 font-semibold text-white shadow-md shadow-blue-700 transition hover:bg-slate-900"
           type="submit"
         >
           <svg
