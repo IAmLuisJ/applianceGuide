@@ -13,7 +13,10 @@ export default function Index() {
       <Header />
       <Title />
       <div className="w-fit mx-auto">
-        <QuickButtons />
+        <QuickButtons
+          leftButtonText="Washer Dryer Sets"
+          leftButtonLink="https://www.bestbuy.com/site/washers-dryers/washer-dryer-sets/pcmcat303000050004.c?id=pcmcat303000050004"
+        />
       </div>
       <div className="w-fit mx-auto">
         <BigQuestionForm />

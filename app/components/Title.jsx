@@ -9,14 +9,11 @@ const Title = () => {
           Our goal is to optimize the customer Appliance Buying experience
         </p>
         <div class="mx-auto flex w-fit flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
-          <button class="rounded-md border-0 bg-blue-700 px-12 py-2 text-base text-white shadow-lg shadow-violet-300 transition hover:bg-violet-600 hover:shadow-violet-400 dark:shadow-violet-900">
-            Answer Questions
-          </button>
           <a
             href="https://www.bestbuy.com/site/home-appliances/kitchen-appliance-packages/pcmcat302600050005.c?id=pcmcat302600050005"
             target="_blank"
           >
-            <button class="rounded-md border-0 bg-slate-100 px-12 py-2 text-base text-dark-900 shadow-lg shadow-slate-100 transition hover:bg-white hover:shadow-slate-200 dark:shadow-slate-600">
+            <button class="rounded-md border-0 bg-blue-700 px-12 py-2 text-base text-white shadow-lg shadow-blue-300 transition hover:bg-blue-600 hover:shadow-violet-400 dark:shadow-blue-900">
               Show me Bundles
             </button>
           </a>
