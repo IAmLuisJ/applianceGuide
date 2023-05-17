@@ -73,7 +73,7 @@ export default function Appliancequestionform() {
         <input
           type="hidden"
           name="qp"
-          value="installdays_facet%3DDelivery%20%2B%20Install~Within%202%20days"
+          value="installdays_facet=Delivery + Install~Within 2 days"
         />
         <input type="hidden" name="st" value="range" />
 

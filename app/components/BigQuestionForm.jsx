@@ -1,6 +1,9 @@
 import { Link } from "@remix-run/react";
-//html decoded
-//https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&qp=deliverydays_facet=Delivery~Within 2 days&st=range
+//current returns
+//https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&qp=installdays_facet%253DDelivery%2520%252B%2520Install%7EWithin%25202%2520days&st=Refrigerator
+
+//needs to be
+//https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&qp=installdays_facet%3DDelivery%20%2B%20Install~Within%202%20days&st=refrigerator
 
 //install link
 //https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&qp=&st=range
@@ -73,7 +76,7 @@ export default function BigQuestionForm() {
         <input
           type="hidden"
           name="qp"
-          value="{installdays_facet%3DDelivery%20%2B%20Install~Within%202%20days}"
+          value="installdays_facet=Delivery + Install~Within 2 days"
         />
         <label for="st" className="text-xl font-extrabold text-white mb-2">
           What Appliance are you shopping for?
