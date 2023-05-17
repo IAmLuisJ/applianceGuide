@@ -11,7 +11,7 @@ const QuickButtons = (props) => {
         </a>
         <a href={props.rightButtonLink ? props.rightButtonLink : "/"}></a>
         <button class="rounded-lg border-0 bg-bby-yellow px-6 py-3 text-base text-slate-900 shadow-lg shadow-slate-100 transition hover:bg-bby-yellow-dk hover:text-slate-900 hover:shadow-yellow-300 dark:bg-slate-700 dark:text-slate-300 dark:shadow-sm dark:shadow-slate-800 dark:hover:bg-slate-600 sm:py-2">
-          {props.rightButtonText ? props.leftButtonText : "Right Button"}
+          {props.rightButtonText ? props.rightButtonText : "Right Button"}
         </button>
       </div>
     </div>
