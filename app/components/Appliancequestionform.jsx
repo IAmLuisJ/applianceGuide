@@ -73,7 +73,7 @@ export default function Appliancequestionform() {
         <input
           type="hidden"
           name="qp"
-          value="installdays_facet=Delivery + Install~Within 2 days"
+          value="installdays_facet%3DDelivery%20%2B%20Install~Within%202%20days"
         />
         <input type="hidden" name="st" value="range" />
 
@@ -81,22 +81,49 @@ export default function Appliancequestionform() {
           <legend className="text-sm font-semibold leading-6">Fuel Type</legend>
           <div className="ml-4">
             <div className="flex items-center gap-x-3">
-              <input id="fuel_type_electric" name="fuel_type" type="radio" value="fuel_type_electric"
-                     className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"></input>
-              <label htmlFor="fuel_type_electric"
-                     className="block text-sm font-medium leading-6">Electric</label>
+              <input
+                id="fuel_type_electric"
+                name="fuel_type"
+                type="radio"
+                value="fuel_type_electric"
+                className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+              ></input>
+              <label
+                htmlFor="fuel_type_electric"
+                className="block text-sm font-medium leading-6"
+              >
+                Electric
+              </label>
             </div>
             <div className="flex items-center gap-x-3">
-              <input id="fuel_type_gas" name="fuel_type" type="radio" value="fuel_type_gas"
-                     className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"></input>
-              <label htmlFor="fuel_type_gas"
-                     className="block text-sm font-medium leading-6">Gas</label>
+              <input
+                id="fuel_type_gas"
+                name="fuel_type"
+                type="radio"
+                value="fuel_type_gas"
+                className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+              ></input>
+              <label
+                htmlFor="fuel_type_gas"
+                className="block text-sm font-medium leading-6"
+              >
+                Gas
+              </label>
             </div>
             <div className="flex items-center gap-x-3">
-              <input id="fuel_type_lp" name="fuel_type" type="radio" value="fuel_type_lp"
-                     className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"></input>
-              <label htmlFor="fuel_type_lp"
-                     className="block text-sm font-medium leading-6">Liquid Propane</label>
+              <input
+                id="fuel_type_lp"
+                name="fuel_type"
+                type="radio"
+                value="fuel_type_lp"
+                className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
+              ></input>
+              <label
+                htmlFor="fuel_type_lp"
+                className="block text-sm font-medium leading-6"
+              >
+                Liquid Propane
+              </label>
             </div>
           </div>
         </fieldset>
@@ -104,40 +131,42 @@ export default function Appliancequestionform() {
         <div className="mt-3 space-y-6">
           <div className="flex items-center gap-x-3">
             <input type="checkbox" name="install" />
-            <label htmlFor="install" >I want installation.</label>
+            <label htmlFor="install">I want installation.</label>
           </div>
         </div>
 
         <div className="mt-1 space-y-6">
           <div className="flex items-center gap-x-3">
             <input type="checkbox" name="haulaway" />
-            <label htmlFor="haulaway" >I want my old appliances hauled away.</label>
+            <label htmlFor="haulaway">
+              I want my old appliances hauled away.
+            </label>
           </div>
         </div>
 
         <div className="mt-1 space-y-6">
           <div className="flex items-center gap-x-3">
             <input type="checkbox" name="Color" />
-            <label htmlFor="Color" >I have color preferences.</label>
+            <label htmlFor="Color">I have color preferences.</label>
           </div>
         </div>
 
         <div className="mt-1 space-y-6">
           <div className="flex items-center gap-x-3">
             <input type="checkbox" name="Brand" />
-            <label htmlFor="Brand" >I have brand preferences.</label>
+            <label htmlFor="Brand">I have brand preferences.</label>
           </div>
         </div>
 
         <input
-            className="mt-6 mb-4 rounded-md px-4 py-3 font-light"
-            min="0"
-            placeholder="What is your zip code?"
-            type="number"
+          className="mt-6 mb-4 rounded-md px-4 py-3 font-light"
+          min="0"
+          placeholder="What is your zip code?"
+          type="number"
         />
         <button
-            className="flex items-center justify-center rounded-md bg-bby-yellow px-4 py-3 text-black font-semibold shadow-md shadow-violet-700 transition hover:bg-bby-yellow-dk"
-            type="submit"
+          className="flex items-center justify-center rounded-md bg-bby-yellow px-4 py-3 text-black font-semibold shadow-md shadow-violet-700 transition hover:bg-bby-yellow-dk"
+          type="submit"
         >
           <svg
             preserveAspectRatio="xMidYMid meet"
@@ -157,7 +186,6 @@ export default function Appliancequestionform() {
           </svg>
           Find the best options
         </button>
-
       </form>
     </div>
   );
